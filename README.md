@@ -15,7 +15,7 @@ PROJECT SOURCES: https://github.com/flexsurfer/ClojureRNProject
 
 ### 1. Create a new React Native Project or open existing one
 
-`react-native init ClojureRNProject`
+`npx react-native init ClojureRNProject`
 
 `cd ClojureRNProject`
 
