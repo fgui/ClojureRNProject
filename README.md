@@ -70,11 +70,11 @@ Create `shadow-cljs.edn`
 ```clojure
 {:source-paths ["src"]
 
- :dependencies [[reagent "0.10.0"]
-                [re-frame "0.12.0"]
+:dependencies [[reagent "1.1.0"]
+                [re-frame "1.2.0"]
                 [re-frame-steroid "0.1.1"]
-                [rn-shadow-steroid "0.2.1"]
-                [re-frisk-remote "1.3.3"]]
+                [rn-shadow-steroid "0.2.7"]
+                [re-frisk-remote "1.5.2"]]
 
  :builds       {:dev
                 {:target     :react-native
@@ -94,12 +94,12 @@ Next, we need to initialize project as Clojure Deps, `deps.edn` will be used onl
 create `deps.edn` file
 
 ```clojure
-{:deps  {org.clojure/clojure       {:mvn/version "1.10.0"}
-         org.clojure/clojurescript {:mvn/version "1.10.339"}
-         reagent                   {:mvn/version "0.10.0"}
-         re-frame                  {:mvn/version "0.12.0"}
+{:deps  {org.clojure/clojure       {:mvn/version "1.10.3"}
+         org.clojure/clojurescript {:mvn/version "1.10.879"}
+         reagent                   {:mvn/version "1.1.0"}
+         re-frame                  {:mvn/version "1.2.0"}
          re-frame-steroid          {:mvn/version "0.1.1"}
-         rn-shadow-steroid         {:mvn/version "0.2.1"}}
+         rn-shadow-steroid         {:mvn/version "0.2.7"}}
  :paths ["src"]}
 ```
 
