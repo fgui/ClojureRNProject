@@ -122,13 +122,11 @@ core.cljs
 
 ```clojure
 (ns colmena.core
-  (:require [steroid.rn.core :as rn]
-            [steroid.rn.navigation.safe-area :as safe-area]))
+  (:require [steroid.rn.core :as rn]))
 
 (defn root-comp []
-  [safe-area/safe-area-view
-   [rn/view
-    [rn/text "Hello CLojure! from CLJS"]]])
+  [rn/view
+   [rn/text "Hello CLojure! from CLJS"]])
 
 (defn init []
   (rn/register-reload-comp "ClojureRNProject" root-comp))
