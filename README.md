@@ -205,12 +205,11 @@ core.cljs
 
 (views/defview root-comp []
   (views/letsubs [counter [:counter]]
-    [rn/safe-area-view {:style {:flex 1}}
      [rn/view {:style {:align-items :center :justify-content :center :flex 1}}
       [rn/text (str "Counter: " counter)]
       [rn/touchable-opacity {:on-press #(re-frame/dispatch [:update-counter])}
        [rn/view {:style {:background-color :gray :padding 5}}
-        [rn/text "Update counter"]]]]]))
+        [rn/text "Update counter"]]]]))
 
 (defn init []
   (re-frame/dispatch [:init-app-db])
