@@ -121,11 +121,12 @@ create `src` folder and `clojurernproject` package with `core.cljs` file
 core.cljs
 
 ```clojure
-(ns clojurernproject.core
-  (:require [steroid.rn.core :as rn]))
+(ns colmena.core
+  (:require [steroid.rn.core :as rn]
+            [steroid.rn.navigation.safe-area :as safe-area]))
 
 (defn root-comp []
-  [rn/safe-area-view
+  [safe-area/safe-area-view
    [rn/view
     [rn/text "Hello CLojure! from CLJS"]]])
 
