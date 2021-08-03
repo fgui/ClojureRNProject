@@ -313,6 +313,8 @@ and open `http://localhost:4567`
 
 You can see all that is happening with the app: events, app-db (state) and subscriptions
 
+Andorid (linux) after starting emulator:  `adb reverse tcp:4567 tcp:4567`
+
 ### 6. Tests
 
 Add test folder and configure test build in the project 
