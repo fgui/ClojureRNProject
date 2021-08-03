@@ -73,7 +73,7 @@ Create `shadow-cljs.edn`
 :dependencies [[reagent "1.1.0"]
                 [re-frame "1.2.0"]
                 [re-frame-steroid "0.1.1"]
-                [rn-shadow-steroid "0.2.7"]
+                [rn-shadow-steroid "0.2.8"]
                 [re-frisk-remote "1.5.2"]]
 
  :builds       {:dev
@@ -99,7 +99,7 @@ create `deps.edn` file
          reagent                   {:mvn/version "1.1.0"}
          re-frame                  {:mvn/version "1.2.0"}
          re-frame-steroid          {:mvn/version "0.1.1"}
-         rn-shadow-steroid         {:mvn/version "0.2.7"}}
+         rn-shadow-steroid         {:mvn/version "0.2.8"}}
  :paths ["src"]}
 ```
 
