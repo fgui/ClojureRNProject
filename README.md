@@ -121,7 +121,7 @@ create `src` folder and `clojurernproject` package with `core.cljs` file
 core.cljs
 
 ```clojure
-(ns colmena.core
+(ns clojurernproject.core
   (:require [steroid.rn.core :as rn]))
 
 (defn root-comp []
